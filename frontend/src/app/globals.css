@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --bg-main: #0a0e17; --bg-card: #111827; --bg-elevated: #1a1d2e; --bg-border: #1f2937; --text-primary: #e2e8f0; --text-secondary: #7c8db5; }
+* { box-sizing: border-box; }
+html { color-scheme: dark; }
+body { margin: 0; background: var(--bg-main); color: var(--text-primary); font-family: Inter, system-ui, sans-serif; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #2d3748; border-radius: 3px; }
+input, select { background: #1a1d2e; border: 1px solid #2d3748; color: var(--text-primary); border-radius: 6px; padding: 8px 12px; font-size: 14px; outline: none; }
+input:focus { border-color: #3b82f6; }
+.btn-primary { background: #1a73e8; color: white; border: none; border-radius: 6px; padding: 8px 20px; font-size: 14px; cursor: pointer; }
+.btn-primary:hover { background: #1557b0; }
+.btn-secondary { background: transparent; color: var(--text-primary); border: 1px solid #2d3748; border-radius: 6px; padding: 8px 20px; font-size: 14px; cursor: pointer; }
+.btn-secondary:hover { background: #1f2937; }
+.card { background: var(--bg-card); border: 1px solid var(--bg-border); border-radius: 8px; padding: 16px; }
+.card-elevated { background: var(--bg-elevated); border: 1px solid var(--bg-border); border-radius: 8px; padding: 16px; }
+.gauge-green { color: #26a69a; }
+.gauge-red { color: #ef5350; }
+.gauge-yellow { color: #ffa726; }
+.smi-score { font-size: 48px; font-weight: 700; line-height: 1; }

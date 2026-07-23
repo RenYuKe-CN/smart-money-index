@@ -1,0 +1,8 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+.venv/
+backend/app/data/config.json
+backend/app/data/smi_history.json
